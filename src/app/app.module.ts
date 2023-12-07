@@ -9,12 +9,13 @@ import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { ErrorComponent } from './error/error.component';
-import { GalleryComponent } from './gallery/gallery.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import { Gallery2Component } from './gallery2/gallery2.component';
 import { Gallery3Component } from './gallery3/gallery3.component';
+import { Navbar2Component } from './navbar2/navbar2.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { Gallery3Component } from './gallery3/gallery3.component';
     LoginComponent,
     FooterComponent,
     Gallery2Component,
-    Gallery3Component
+    Gallery3Component,
+    Navbar2Component
   ],
   imports: [
     BrowserModule,

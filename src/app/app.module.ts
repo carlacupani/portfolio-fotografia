@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { Gallery2Component } from './gallery2/gallery2.component';
+import { Gallery3Component } from './gallery3/gallery3.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { Gallery2Component } from './gallery2/gallery2.component';
     GalleryComponent,
     LoginComponent,
     FooterComponent,
-    Gallery2Component
+    Gallery2Component,
+    Gallery3Component
   ],
   imports: [
     BrowserModule,

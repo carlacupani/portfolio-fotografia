@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar">
+        <div class="collapse navbar-collapse my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" (click)="cambiagalleria(1)">
+                      BLACK&WHITE
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" (click)="cambiagalleria(2)">
+                     35MM
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" (click)="cambiagalleria(3)">
+                      OTHERS
+                    </a>
+                </li>
+            </ul>
+           
+        </div>
+    </nav>
+
+    <app-gallery *ngIf="varnav == 1"></app-gallery>
+    <app-gallery2 *ngIf="varnav == 2"></app-gallery2>
+    <app-gallery3 *ngIf="varnav == 3"></app-gallery3>

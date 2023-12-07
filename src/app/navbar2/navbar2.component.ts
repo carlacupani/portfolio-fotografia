@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar2.component.css']
 })
 export class Navbar2Component {
-
+  varnav = 1;
+  cambiagalleria(index:any){
+    this.varnav = index;
+    
+  }
 }

@@ -1,8 +1,21 @@
+
+.navbar {
+  background-color: var(--white-color); 
+  padding: 10px; 
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
 .navbar-nav {
     width: 100%;
     text-align: center;
-    > ul {
-      float: none;
-      display: inline-block;
-    }
+    text-decoration: none;
+    padding: 10px 15px;
+    display: flexbox;
   }
+
+  .navbar-nav a.active {
+    font-weight: bold; 
+}

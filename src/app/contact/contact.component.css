@@ -23,15 +23,16 @@
     margin: 10px 0;
 }
 .contact .form .input-box p{
-    color: var(--darkgrey-color);
+    color: var(--black-color);
 }
 .contact .form .input-box input,.contact .form .input-box textarea{
     border: none;
     outline: none;
     padding: 10px;
     width: 100%;
-    color: var(--black-color);
-    background: var(--lightgrey-color);
+    border-radius: 5px;
+    color: var(--lightgrey-color);
+    background: var(--darkgrey-color);
     min-height: 15px;
     font-size: 1.1em;
 }
@@ -43,18 +44,19 @@
     padding: 10px 20px;
     margin: 15px 0;
     outline: none;
-    background: var(--lightgrey-color);
+    background: var(--darkgrey-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 1em;
     width: 150px;
     border-radius: 5px;
     cursor: pointer;
-    color: var(--text-color);
+    color: var(--lightgrey-color);
     letter-spacing: 1px;
 }
 .contact .form .input-box input[type="submit"]:hover{
-    background: var(--main-color);
+    background: var(--lightgrey-color);
+    color: var(--darkgrey-color);
     box-shadow: 0 0 10px var(--darkgrey-color);
     
 }
